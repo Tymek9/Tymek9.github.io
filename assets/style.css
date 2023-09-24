@@ -32,6 +32,10 @@ visibility: hidden;
     animation-iteration-count: infinite ;
     padding:10px;
 }
+#theme {
+    font-size:13px;
+    opacity:0.7;
+}
 #l1 , #l1 a{
     text-decoration:none;
     display:inline-block;
@@ -83,17 +87,15 @@ visibility: hidden;
 .honorlist {
     list-style-type: none;
 }
-.accs {
+#accs {
+    margin-right:-1px;
+    margin-top:30px;
     background-color: #5e088c;
     border:2px solid black;
     width:2%;
     text-align: center;
     float:right;
     border-radius: 20px 0 0 0;
-    animation-name: kont;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite ;
 }
 .acc {
     margin-bottom:10px;
@@ -103,16 +105,16 @@ visibility: hidden;
 
 
 .divh:hover {
-    color:#BC6FF1;
+    color:#931be4;
 }
 #l1 a:hover {
-    color:#BC6FF1;
+    color:#000000;
 }
 #l2 a:hover {
-    color:#BC6FF1;
+    color:#931be4;
 }
 .l3:hover, .l3 a:hover {
-    color:#BC6FF1;
+    color:#931be4;
     cursor:pointer;
 }
 .acc:hover {
@@ -120,7 +122,7 @@ visibility: hidden;
 
 }
 i:hover {
-    color:#BC6FF1;
+    color:#931be4;
 }
 
 
@@ -138,6 +140,3 @@ i:hover {
     100%{color:rgb(255, 0, 0)}
 }
 
-@keyframes kont{
-    50%{background-color:rgb(125, 50, 195)}
-}
