@@ -4,6 +4,7 @@
     background-color:#35155D;
     cursor: url('C:/Users/lubie/Documents/GitHub/Tymek9.github.io/Tymek9.github.io/assets/icons/4855-necoarc.png');
     color:white;
+    transition: background-color 0.5s;
 }
 footer {
     overflow:hidden;
@@ -39,8 +40,9 @@ visibility: hidden;
 #l1 , #l1 a{
     text-decoration:none;
     display:inline-block;
-    margin-left:10px;
-    margin-right:10px;
+    padding:10px;
+    margin-left:0px;
+    margin-right:0px;
     color:white;
 }
 #sc1, #sc2, #sc3, #sc4, #sc5 {
@@ -50,7 +52,6 @@ visibility: hidden;
 }
 #l2 , #l2 a {
     text-decoration:none;
-    display:inline-block;
     margin-left:10px;
     margin-right:10px;
 }
@@ -66,7 +67,6 @@ visibility: hidden;
     background-color: #892CDC;
     margin-top:0px;
     margin-bottom:0px;
-    padding:10px;
     display:block;
     overflow:hidden;
     border-radius:0 0 10px 0;
@@ -76,13 +76,13 @@ visibility: hidden;
     transition: all 1s;
     display:block;
 }
-.hsc1 {
+#hsc {
     margin:20px;
     padding:10px;
 }
 .divh {
     font-size:30px;
-    transition: all 0.3s;   
+    transition: all 0.2s;  
 }
 .honorlist {
     list-style-type: none;
@@ -112,6 +112,7 @@ visibility: hidden;
 }
 #l2 a:hover {
     color:#931be4;
+    
 }
 .l3:hover, .l3 a:hover {
     color:#931be4;

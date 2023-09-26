@@ -23,7 +23,7 @@ document.getElementById("kolor").onclick = function() {
         document.getElementById("navbar").style.backgroundColor = "#8DDFCB";
         document.getElementById("main").style.backgroundColor = "#82A0D8";
         document.getElementById("accs").style.backgroundColor = "#EDB7ED";
-        document.getElementById("theme").innerHTML = "theme: beach party"
+        document.getElementById("theme").innerHTML = "theme: water slide"
         aktolor = 2;
     }
     else if(aktolor == 2){
