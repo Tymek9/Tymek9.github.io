@@ -1,5 +1,4 @@
 var aktolor;
-aktolor = 0;
 
 function ok() {
     alert("discord: flop.geming")
@@ -31,7 +30,7 @@ document.getElementById("kolor").onclick = function() {
         document.getElementById("n").style.backgroundColor = "#FF8787";
         document.getElementById("bd").style.color = "black";
         document.getElementById("navbar").style.backgroundColor = "#FF8787";
-        document.getElementById("main").style.backgroundColor = "#EDEDED";
+        document.getElementById("main").style.backgroundColor = "#949494";
         document.getElementById("accs").style.backgroundColor = "#E26868";
         document.getElementById("theme").innerHTML = "theme: retro"
         aktolor = 3;
